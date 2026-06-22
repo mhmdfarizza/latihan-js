@@ -1,5 +1,5 @@
-let text = " "
+let text = ""
 for(let i = 1; i<=4; i++) {
-    text += " cerdas"
+    text += "cerdas "
 }
 console.log(text)

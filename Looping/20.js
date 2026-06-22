@@ -1,19 +1,19 @@
 const prompt = require("prompt-sync")();
 
 let angka = Number(prompt("Masukkan angka:")); 
-let header = "*\t";
+let awal = "*\t";
 
 for (let i = 1; i <= angka; i++) {
-    header += i + "\t";
+    awal += i + "\t";
 }
 
-console.log(header);
+console.log(awal);
 
 for (let i = 1; i <= angka; i++) {
-    let baris = i + "\t";
+    let bawah = i + "\t";
 
     for (let j = 1; j <= angka; j++) {
-        baris += (i * j) + "\t";
+        bawah += (i * j) + "\t";
     }
-    console.log(baris);
+    console.log(bawah);
 }
